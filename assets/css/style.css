@@ -1,11 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+header {
+  display: flex-box;
+  padding: 50px;
 }
 
-header {
-  color: rgb(107, 107, 255);
-  margin: 20px 20px;
-  padding: 50px;
+.jumbotron {
+  color: rgb(153, 153, 245);
+  background-color: rgba(0, 0, 0, 0.678);
+  border-bottom: 10px black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.paraid {
+  font-size: 15px;
+  color: aliceblue;
 }
