@@ -26,3 +26,11 @@ header {
   background-color: rgb(153, 153, 245);
   opacity: 50%;
 }
+
+#namecity {
+  color: rgb(153, 153, 245);
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+}
