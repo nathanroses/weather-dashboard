@@ -27,6 +27,13 @@ header {
   opacity: 50%;
 }
 
+.cityname {
+  text-align: center;
+  display: flexbox;
+  background-color: rgba(128, 128, 128, 0.158);
+  padding: 20px 20px;
+}
+
 #namecity {
   color: rgb(153, 153, 245);
   font-family: monospace;
