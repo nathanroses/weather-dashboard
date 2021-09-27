@@ -9,9 +9,12 @@ header {
   border-bottom: 10px black;
   text-align: center;
   font-size: 30px;
+  font-family: monospace;
 }
 
 .paraid {
   font-size: 15px;
   color: aliceblue;
+  font-family: monospace;
+  opacity: 20%;
 }
