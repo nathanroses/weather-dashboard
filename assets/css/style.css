@@ -19,3 +19,10 @@ header {
   font-family: monospace;
   opacity: 20%;
 }
+
+.lead {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(153, 153, 245);
+  opacity: 50%;
+}
