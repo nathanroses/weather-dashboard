@@ -62,12 +62,14 @@ header {
   color: white;
   background-color: black;
   opacity: 80%;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 15px 20px;
   font-size: 15px;
-  display: flexbox;
+  display: inline;
   font-family: monospace;
-  margin: 10px 270px;
+  text-align: center;
+  align-items: center;
+  margin: 10px 220px;
 }
 
 #namecity {
