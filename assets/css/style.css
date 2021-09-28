@@ -38,11 +38,28 @@ header {
   text-align: center;
   display: flexbox;
   font-family: monospace;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+
+.searchbox {
+  border-radius: 60px;
+  border: none;
+  padding: 5px 60px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-size: 20px;
+}
+
+.searchbox:hover {
+  opacity: 80%;
   border: none;
 }
 
 .buttons {
-  color: rgb(153, 153, 245);
+  color: white;
   background-color: black;
   opacity: 80%;
   border-radius: 20px;
@@ -50,7 +67,7 @@ header {
   font-size: 15px;
   display: flexbox;
   font-family: monospace;
-  margin: 10px 260px;
+  margin: 10px 270px;
 }
 
 #namecity {
