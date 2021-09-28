@@ -34,6 +34,25 @@ header {
   padding: 20px 20px;
 }
 
+.searchwe {
+  text-align: center;
+  display: flexbox;
+  font-family: monospace;
+  border: none;
+}
+
+.buttons {
+  color: rgb(153, 153, 245);
+  background-color: black;
+  opacity: 80%;
+  border-radius: 20px;
+  padding: 15px 20px;
+  font-size: 15px;
+  display: flexbox;
+  font-family: monospace;
+  margin: 10px 260px;
+}
+
 #namecity {
   color: rgb(153, 153, 245);
   font-family: monospace;
