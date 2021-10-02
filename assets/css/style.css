@@ -72,6 +72,24 @@ header {
   margin: 10px 220px;
 }
 
+.buttons:hover {
+  padding: 15px;
+}
+
+input[type="text"] {
+  background-color: rgb(153, 153, 245);
+  opacity: 30%;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+.display {
+  text-align: center;
+}
+
 #namecity {
   color: rgb(153, 153, 245);
   font-family: monospace;
