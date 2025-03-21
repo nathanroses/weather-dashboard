@@ -6,92 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<header class="jumbotron">
-    <div class="paraid">
-        <p>we never lie, ever</p> 
-     </div>
-    <div class="id"> 
-  <h1>Weather Dashboard</h1> 
-  </div>  
-</header>
-
 <body>
+    <header class="jumbotron">
+        <div class="paraid">
+            <p>we never lie, ever</p> 
+        </div>
+        <div class="id"> 
+            <h1>Weather Dashboard</h1> 
+        </div>  
+    </header>
+
     <div class="top-body">
         <p id="currentDay" class="lead"></p>
     </div>
 
-    <div class="col-md-4">
-        
-        <div class="row time-block">
-            <div class="searchwe">
-                <h3>SEARCH BY CITY</h3>
-               <div class="input"> 
-                <input type="text" class="inputValue"> 
-                <input type="submit" value="submit" class="buttons">
-              </div> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row time-block">
+                    <div class="searchwe">
+                        <h3>SEARCH BY CITY</h3>
+                        <div class="input"> 
+                            <input type="text" class="inputValue"> 
+                            <input type="submit" value="submit" class="button buttons">
+                        </div> 
+                    </div>
+                </div>
+                
+                <div class="row time-block">
+                    <div id="namecity" class="cityname" data-city="New York">
+                        New York
+                    </div>
+                </div>
+                
+                <div class="row time-block">
+                    <div id="namecity" class="cityname" data-city="Nashville">
+                        Nashville
+                    </div>
+                </div>
+                
+                <div class="row time-block">
+                    <div id="namecity" class="cityname" data-city="Chicago">
+                        Chicago
+                    </div>
+                </div>
+                
+                <div class="row time-block">
+                    <div id="namecity" class="cityname" data-city="Denver">
+                        Denver
+                    </div>
+                </div>
+                
+                <div class="row time-block">
+                    <div id="namecity" class="cityname" data-city="Los Angeles">
+                        Los Angeles 
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="col-md-8 weather-api">
+                <div class="display">
+                    <h1 class="name"></h1>
+                    <p class="desc"></p>
+                    <p class="temp"></p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-4 row time-block">
-
         </div>
-    
-     <div class="row time-block">
-      <div id="namecity" class="cityname"  description>
-        New York
-      </div>
     </div>
-   
-    <div class="row time-block">
-        <div id="namecity"  description>
-          Nashville
-        </div>
-      </div>
 
-         
-    <div class="row time-block">
-        <div id="namecity" class="cityname"  description>
-          Chicago
-        </div>
-      </div>
-               
-    <div class="row time-block">
-        <div id="namecity" description>
-          Denver
-        </div>
-      </div>
-
-                     
-    <div class="row time-block">
-        <div id="namecity"class="cityname" description>
-          Los Angeles 
-        </div>
-      </div>
-    </div>  
-  
-   <div class="col-md-8 weather api">
-     <div class="display">
-       <h1 class="name"></h1>
-       <p class="desc"></p>
-       <p class="temp"></p>
-     </div>
-   </div>
-W
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="./assets/java/date.js"></script>
     <script src="./assets/java/weather.js"></script>
-
 </body>
 
 <footer>
-
 </footer>
-
-
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
- <link href="http://maps.openweathermap.org/maps/2.0/weather/{op}/{z}/{x}/{y}?appid=a5585c2231b951e5765a92525acac5e2"
 </html>
