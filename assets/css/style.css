@@ -1,46 +1,55 @@
 header {
-  display: flex-box;
+  display: flex;
+  flex-direction: column;
   padding: 50px;
 }
 
 .jumbotron {
   color: rgb(153, 153, 245);
   background-color: rgba(0, 0, 0, 0.678);
-  border-bottom: 10px black;
+  border-bottom: 10px solid black;
   text-align: center;
   font-size: 30px;
   font-family: monospace;
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 .paraid {
   font-size: 15px;
   color: aliceblue;
   font-family: monospace;
-  opacity: 20%;
+  opacity: 0.2;
 }
 
 .lead {
   text-align: center;
   padding: 20px;
   background-color: rgb(153, 153, 245);
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 .cityname {
   text-align: center;
-  display: flexbox;
+  display: block;
   background-color: rgba(128, 128, 128, 0.158);
   padding: 20px 20px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.cityname:hover {
+  background-color: rgba(128, 128, 128, 0.3);
 }
 
 .searchwe {
   text-align: center;
-  display: flexbox;
+  display: block;
   font-family: monospace;
   border-radius: 10px;
   color: black;
   background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
 }
 
 .searchbox {
@@ -54,40 +63,46 @@ header {
 }
 
 .searchbox:hover {
-  opacity: 80%;
+  opacity: 0.8;
   border: none;
 }
 
 .buttons {
   color: white;
   background-color: black;
-  opacity: 80%;
+  opacity: 0.8;
   border-radius: 10px;
   padding: 15px 20px;
   font-size: 15px;
-  display: inline;
   font-family: monospace;
   text-align: center;
-  align-items: center;
-  margin: 10px 220px;
+  margin: 10px auto;
+  display: block;
+  cursor: pointer;
 }
 
 .buttons:hover {
-  padding: 15px;
+  background-color: rgb(51, 51, 51);
 }
 
 input[type="text"] {
   background-color: rgb(153, 153, 245);
-  opacity: 30%;
+  opacity: 0.3;
   border: none;
   border-radius: 20px;
   padding: 20px;
   color: black;
   text-align: center;
+  width: 80%;
+  margin: 10px auto;
 }
 
 .display {
   text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(153, 153, 245, 0.1);
+  border-radius: 10px;
 }
 
 #namecity {
@@ -96,4 +111,13 @@ input[type="text"] {
   font-size: 20px;
   text-align: center;
   padding: 30px;
+}
+
+.weather-api {
+  min-height: 300px;
+}
+
+.temp {
+  font-size: 24px;
+  font-weight: bold;
 }
